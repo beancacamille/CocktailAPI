@@ -18,7 +18,8 @@ IMAGE OF BOARD
 
 ### Sprint Goals
 
-*[ ] Complete user story ...
+* [ ] Complete User Story 1 - Choose API
+* [ ] Complete User Story 2 - Setup Framework Solution
 
 ### Sprint Review
 
