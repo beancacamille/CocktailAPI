@@ -1,9 +1,18 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace CocktailAPI_Framework
 {
-    class SearchIngredientDTO
+    public class SearchIngredientDTO
     {
+
+        public IngredientRoot DrinksList { get; set; }
+
+        public void DeserializeRates(string drinksResponse)
+        {
+            DrinksList = JsonConvert.DeserializeObject <IngredientRoot>(drinksResponse);
+        }
+
+
+
     }
 }

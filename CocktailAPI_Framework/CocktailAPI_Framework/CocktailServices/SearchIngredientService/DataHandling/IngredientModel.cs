@@ -1,8 +1,13 @@
-﻿using System;
-
-namespace CocktailAPI_Framework
+﻿namespace CocktailAPI_Framework
 {
-    class IngredientModel
+
+    public class IngredientRoot
     {
+        public DrinkIngred[] Drinks2 { get; set; }
+    }
+
+    public class DrinkIngred
+    {
+        public string strIngredient1 { get; set; }
     }
 }

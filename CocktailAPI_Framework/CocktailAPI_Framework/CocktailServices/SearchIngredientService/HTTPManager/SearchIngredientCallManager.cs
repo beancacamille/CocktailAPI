@@ -3,7 +3,21 @@ using RestSharp;
 
 namespace CocktailAPI_Framework
 {
-    class SearchIngredientCallManager
+    public class SearchIngredientCallManager
     {
+        private readonly IRestClient _client;
+
+        public SearchIngredientCallManager()
+        {
+            _client = new RestClient(CocktailConfigReader.BaseUrl);
+        }
+
+        public string GetIngredientsForCount()
+        {
+            var request = new RestRequest("list.php?i=list");
+            var response = _client.Execute(request, Method.GET);
+            return response.Content;
+        }
+
     }
 }
