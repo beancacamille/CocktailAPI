@@ -27,5 +27,12 @@ namespace CocktailAPI_Framework
             _searchCocktail = new SCService("notcocktail");
             Assert.That(_searchCocktail.GetResult(), Is.Null);
         }
+
+        [Test]
+        public void CocktailHasCorrectIngredient()
+        {
+            _searchCocktail = new SCService("blue margarita");
+            Assert.That(_searchCocktail.GetIngredients(), Does.Contain("tequila").IgnoreCase);
+        }
     }
 }

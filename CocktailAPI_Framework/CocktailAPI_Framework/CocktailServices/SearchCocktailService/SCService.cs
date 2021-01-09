@@ -34,5 +34,21 @@ namespace CocktailAPI_Framework
             }
             return true;
         }
+
+        public List<string> GetIngredients()
+        {
+            var cocktail = JsonCocktails["drinks"][0];
+            var ingredients = new List<string>();
+
+            for (int i = 1; i <= 15; i++)
+            {
+                if (cocktail[$"strIngredient{i}"].ToString() != "")
+                {
+                    ingredients.Add(cocktail[$"strIngredient{i}"].ToString());
+                }
+            }
+
+            return ingredients;
+        }
     }
 }
