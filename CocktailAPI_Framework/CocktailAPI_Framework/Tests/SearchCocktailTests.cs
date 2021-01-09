@@ -13,5 +13,12 @@ namespace CocktailAPI_Framework
             _searchCocktail = new SCService("margarita");
             Assert.That(_searchCocktail.GetResult(), Has.Length.GreaterThan(0));
         }
+
+        [Test]
+        public void IfInputIsCocktail_AllResultsMustContainInput()
+        {
+            _searchCocktail = new SCService("margarita");
+            Assert.That(_searchCocktail.CheckAllCocktailsContainSearchInput());
+        }
     }
 }

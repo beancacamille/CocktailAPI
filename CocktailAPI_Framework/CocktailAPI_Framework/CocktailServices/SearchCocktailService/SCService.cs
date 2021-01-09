@@ -25,5 +25,14 @@ namespace CocktailAPI_Framework
         {
             return SearchCocktailDTO.CocktailRoot.drinks;
         }
+
+        public bool CheckAllCocktailsContainSearchInput()
+        {
+            foreach (var cocktail in SearchCocktailDTO.CocktailRoot.drinks)
+            {
+                if (!cocktail.strDrink.ToLower().Contains(SearchInput.ToLower())) return false;
+            }
+            return true;
+        }
     }
 }
