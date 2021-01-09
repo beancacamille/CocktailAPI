@@ -85,9 +85,9 @@
     <Compile Include="CocktailServices\SearchIngredientService\DataHandling\SearchIngredientDTO.cs" />
     <Compile Include="CocktailServices\SearchIngredientService\HTTPManager\SearchIngredientCallManager.cs" />
     <Compile Include="CocktailServices\SearchIngredientService\SIService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\SearchCocktailTests.cs" />
     <Compile Include="Tests\SearchIngredientTests.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
