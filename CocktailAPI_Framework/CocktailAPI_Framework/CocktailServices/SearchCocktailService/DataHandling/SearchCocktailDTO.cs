@@ -3,7 +3,13 @@ using Newtonsoft.Json;
 
 namespace CocktailAPI_Framework
 {
-    class SearchCocktailDTO
+    public class SearchCocktailDTO
     {
+        public CocktailRoot CocktailRoot { get; set; }
+
+        public void DeserializeCocktails(string searchCocktailResponse)
+        {
+            CocktailRoot = JsonConvert.DeserializeObject<CocktailRoot>(searchCocktailResponse);
+        }
     }
 }
