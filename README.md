@@ -14,7 +14,7 @@ The aim of this project is to deliver a test framework for the TheCocktailDB ser
 
 The aim of this sprint is to find a free API for this project and setting up the GitHub repository.
 
-IMAGE OF BOARD
+![ProjectBoard_Sprint1](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Sprint1.JPG)
 
 ### Sprint Goals
 
@@ -41,20 +41,23 @@ When using branches from the dev branch on GitHub to upload our individual updat
 
 This is the final sprint and the aim is to tidy up the existing code and refactor any necessary sections. All the documentation should be completed by the end of this sprint.
 
-IMAGE OF BOARD
+![ProjectBoard_Sprint2.JPG](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Sprint2.JPG)
 
 ### Sprint Goals
 
-* [ ] User Story 6 - Refactoring
-* [ ] Agile documentation completed
+-  User Story 6 - Refactoring
+-  Agile documentation completed
 
 ### Sprint Review
 
 Having completed almost all of the project in the previous sprint, this sprint was less intense, focused on the quality of the code. Some tests were altered to have more descriptive names as well as method names too. The dev branch was updated to have all other branches merged with no conflicts.
 
-### Sprint Retrospective 
+### Sprint Retrospective
 
 The use of branches really helped merge the updates, allowing for small alterations to be made continuously. This sprint meant that we could do work at our own pace without the need for calls but still communicated about the individual work we had completed.
+
+![ProjectBoard_Complete.JPG](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Complete.JPG)
+
 
 # Project Review
 
