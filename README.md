@@ -6,7 +6,9 @@ The aim of this project is to deliver a test framework for the TheCocktailDB API
 
 ## Class Diagram
 
+![ClassDiagram_Cocktails.JPG](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ClassDiagram_Cocktails.JPG)
 
+![ClassDiagram_Ingredient.JPG](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ClassDiagram_Ingredient.JPG)
 
 # Sprint Breakdown
 

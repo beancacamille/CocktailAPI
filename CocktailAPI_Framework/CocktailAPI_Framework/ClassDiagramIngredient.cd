@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CocktailAPI_Framework.IngredientRoot">
+    <Position X="4.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CocktailServices\SearchIngredientService\DataHandling\IngredientModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IngredientsForDrinks" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CocktailAPI_Framework.DrinkIngredients">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CocktailServices\SearchIngredientService\DataHandling\IngredientModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CocktailAPI_Framework.SearchIngredientDTO">
+    <Position X="4.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CocktailServices\SearchIngredientService\DataHandling\SearchIngredientDTO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IngredientsList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CocktailAPI_Framework.SearchIngredientCallManager">
+    <Position X="1.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CocktailServices\SearchIngredientService\HTTPManager\SearchIngredientCallManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CocktailAPI_Framework.SIService">
+    <Position X="1.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAAAAEAAAAAAAACAAAABAAAAAAAiAAAAAAAA=</HashCode>
+      <FileName>CocktailServices\SearchIngredientService\SIService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SearchIngredientCallManager" />
+      <Property Name="SearchIngredientDTO" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
