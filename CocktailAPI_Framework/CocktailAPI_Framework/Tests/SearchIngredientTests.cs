@@ -9,18 +9,33 @@ namespace CocktailAPI_Framework
 		private SIService _searchIngredient = new SIService();
 
         [Test]
-        public void IngredientCheck()
+        public void IfInputIsIngredient_CountIsEqualTo1()
         {
-            Assert.That(_searchIngredient.IngredientSearch("gin"), Is.EqualTo(1));
+            Assert.That(_searchIngredient.CountIngredientSearched("gin"), Is.EqualTo(1));
         }
 
+        [Test]
+        public void IfInputIsNotIngredient_CountIsEqualTo0()
+        {
+            Assert.That(_searchIngredient.CountIngredientSearched("notdrink"), Is.EqualTo(0));
+        }
 
         [Test]
-		public void NumberOfIngredient()
+		public void CheckNumberOfIngredients()
 		{
-			Assert.That(_searchIngredient.IngredientCount(), Is.EqualTo(100));
+			Assert.That(_searchIngredient.CountAllIngredients(), Is.EqualTo(100));
 		}
 
+        [Test]
+        public void SearchedIngredientIsCorrect()
+        {
+            Assert.That(_searchIngredient.GetIngredientSearched("gin"), Does.Contain("gin").IgnoreCase);
+        }
 
+        [Test]
+        public void IfInputIsNotAnIngredient_ResultMustBeEmpty()
+        {
+            Assert.That(_searchIngredient.GetIngredientSearched("notdrink"), Is.Empty);
+        }
     }
 }
