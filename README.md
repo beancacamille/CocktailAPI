@@ -18,9 +18,16 @@ IMAGE OF BOARD
 
 ### Sprint Goals
 
-* [ ] Complete User Story 1 - Choose API
-* [ ] Complete User Story 2 - Setup Framework Solution
-* [ ] Agile documentation completed
+* [ ] User Story 1 - Choose API
+* [ ] User Story 2 - Setup GitHub
+* [ ] User Story 3.1 - Setup Framework Solution
+* [ ] User Story 3.2 - Create folders
+* [ ] User Story 3.3 - Create classes
+* [ ] User Story 4.1 - Test outputs
+* [ ] User Story 5.1 - Test outputs
+* [ ] User Story 4.2 - Ingredients in cocktails
+* [ ] User Story 5.2 - Ingredients check
+* [ ] Agile documentation
 
 ### Sprint Review
 
@@ -38,21 +45,26 @@ IMAGE OF BOARD
 
 ### Sprint Goals
 
-
+* [ ] User Story 6 - Refactoring
+* [ ] Agile documentation completed
 
 ### Sprint Review
 
-Having completed almost all of the project in the previous sprint, this sprint was less intense, focused on the quality of the code. Some further tests were added 
+Having completed almost all of the project in the previous sprint, this sprint was less intense, focused on the quality of the code. Some tests were altered to have more descriptive names as well as method names too. The dev branch was updated to have all other branches merged with no conflicts.
 
 ### Sprint Retrospective 
 
-
+The use of branches really helped merge the updates, allowing for small alterations to be made continuously. This sprint meant that we could do work at our own pace without the need for calls but still communicated about the individual work we had completed.
 
 # Project Review
 
 The project requirements were met
 
+Using GitHub collaboratively success
+
 Branches were effective
+
+SCRUM framework kept us organised and focused
 
 Improve user stories next time
 
@@ -60,4 +72,6 @@ Improve user stories next time
 
 Good work distribution
 
-Good communication
+Good communication - calls initially
+
+IMAGE OF BOARD COMPLETE
