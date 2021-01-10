@@ -1,6 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace CocktailAPI_Framework
 {
@@ -23,15 +24,15 @@ namespace CocktailAPI_Framework
         public SIService()
 		{
 			//The api call is set to the Ingredients property
-			Ingredients = SearchIngredientCallManager.GetIngredientsForCount();
+			Ingredients = SearchIngredientCallManager.GetAllIngredients();
 			//Take the live rates and deserialise it to a JObject
 			Json_ingredients = JsonConvert.DeserializeObject<JObject>(Ingredients);
+
 			//Another version of the response we get back from the HTTP maanger as a DTO
 			SearchIngredientDTO.DeserializeRates(Ingredients);
-
         }
 
-		public int IngredientCount()
+		public int CountAllIngredients()
 		{
 			var count = 0;
 			foreach (var item in Json_ingredients["drinks"])
@@ -42,7 +43,7 @@ namespace CocktailAPI_Framework
 			return count;
 		}
 
-        public int IngredientSearch(string liquid)
+        public int CountIngredientSearched(string liquid)
         {
 			var count = 0;
 			foreach (var item in Json_ingredients["drinks"])
@@ -55,5 +56,19 @@ namespace CocktailAPI_Framework
 			return count;
 			
 		}
-    }
+
+		public string GetIngredientSearched(string liquid)
+		{
+			string correctIngredient = "";
+			foreach (var item in Json_ingredients["drinks"])
+			{
+				if (item.ToString().Contains(liquid))
+				{
+					correctIngredient = item.ToString();
+				}
+			}
+			return correctIngredient;
+
+		}
+	}
 }

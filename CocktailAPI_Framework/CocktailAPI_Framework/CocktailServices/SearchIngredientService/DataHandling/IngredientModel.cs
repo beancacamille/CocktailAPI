@@ -3,10 +3,10 @@
 
     public class IngredientRoot
     {
-        public DrinkIngred[] Drinks2 { get; set; }
+        public DrinkIngredients[] IngredientsForDrinks { get; set; }
     }
 
-    public class DrinkIngred
+    public class DrinkIngredients
     {
         public string strIngredient1 { get; set; }
     }

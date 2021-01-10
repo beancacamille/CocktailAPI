@@ -18,16 +18,16 @@ The aim of this sprint is to find a free API for this project and setting up the
 
 ### Sprint Goals
 
--  User Story 1 - Choose API
--  User Story 2 - Setup GitHub
--  User Story 3.1 - Setup Framework Solution
--  User Story 3.2 - Create folders
--  User Story 3.3 - Create classes
--  User Story 4.1 - Test outputs
--  User Story 5.1 - Test outputs
--  User Story 4.2 - Ingredients in cocktails
--  User Story 5.2 - Ingredients check
--  Agile documentation
+* [ ] User Story 1 - Choose API
+* [ ] User Story 2 - Setup GitHub
+* [ ] User Story 3.1 - Setup Framework Solution
+* [ ] User Story 3.2 - Create folders
+* [ ] User Story 3.3 - Create classes
+* [ ] User Story 4.1 - Test outputs
+* [ ] User Story 5.1 - Test outputs
+* [ ] User Story 4.2 - Ingredients in cocktails
+* [ ] User Story 5.2 - Ingredients check
+* [ ] Agile documentation
 
 ### Sprint Review
 
@@ -57,6 +57,7 @@ Having completed almost all of the project in the previous sprint, this sprint w
 The use of branches really helped merge the updates, allowing for small alterations to be made continuously. This sprint meant that we could do work at our own pace without the need for calls but still communicated about the individual work we had completed.
 
 ![ProjectBoard_Complete.JPG](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Complete.JPG)
+
 
 # Project Review
 

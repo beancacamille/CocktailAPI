@@ -5,11 +5,11 @@ namespace CocktailAPI_Framework
     public class SearchIngredientDTO
     {
 
-        public IngredientRoot DrinksList { get; set; }
+        public IngredientRoot IngredientsList { get; set; }
 
-        public void DeserializeRates(string drinksResponse)
+        public void DeserializeRates(string ingredientsResponse)
         {
-            DrinksList = JsonConvert.DeserializeObject <IngredientRoot>(drinksResponse);
+            IngredientsList = JsonConvert.DeserializeObject <IngredientRoot>(ingredientsResponse);
         }
 
 
