@@ -12,7 +12,7 @@ namespace CocktailAPI_Framework
             _client = new RestClient(CocktailConfigReader.BaseUrl);
         }
 
-        public string GetIngredientsForCount()
+        public string GetAllIngredients()
         {
             var request = new RestRequest("list.php?i=list");
             var response = _client.Execute(request, Method.GET);

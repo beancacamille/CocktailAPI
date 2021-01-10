@@ -14,12 +14,13 @@ The aim of this project is to deliver a test framework for the TheCocktailDB ser
 
 The aim of this sprint is to find a free API for this project and setting up the GitHub repository.
 
-[![ProjectBoard_Sprint1](https://github.com/beancacamille/CocktailAPI/raw/dev/Images/ProjectBoard_Sprint1.JPG)](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Sprint1.JPG)
+![ProjectBoard_Sprint1](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Sprint1.JPG)
+
 
 ### Sprint Goals
 
 * [ ] User Story 1 - Choose API
-* [ ]  User Story 2 - Setup GitHub
+* [ ] User Story 2 - Setup GitHub
 * [ ] User Story 3.1 - Setup Framework Solution
 * [ ] User Story 3.2 - Create folders
 * [ ] User Story 3.3 - Create classes
@@ -41,7 +42,7 @@ When using branches from the dev branch on GitHub to upload our individual updat
 
 This is the final sprint and the aim is to tidy up the existing code and refactor any necessary sections. All the documentation should be completed by the end of this sprint.
 
-[![ProjectBoard_Sprint2.JPG](https://github.com/beancacamille/CocktailAPI/raw/dev/Images/ProjectBoard_Sprint2.JPG)](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Sprint2.JPG)
+![ProjectBoard_Sprint2.JPG](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Sprint2.JPG)
 
 ### Sprint Goals
 
@@ -55,7 +56,6 @@ Having completed almost all of the project in the previous sprint, this sprint w
 ### Sprint Retrospective
 
 The use of branches really helped merge the updates, allowing for small alterations to be made continuously. This sprint meant that we could do work at our own pace without the need for calls but still communicated about the individual work we had completed.
-
 
 
 # Project Review
@@ -72,6 +72,5 @@ We also tried planning out all the tests before having a solid understanding of 
 
 In the future, we could spend more time focusing on the user stories as this needed to be altered and more added to fit the tests we needed to run.
 
+![ProjectBoard_Complete.JPG](https://github.com/beancacamille/CocktailAPI/raw/dev/Images/ProjectBoard_Complete.JPG)
 
-
-[![ProjectBoard_Complete.JPG](https://github.com/beancacamille/CocktailAPI/raw/dev/Images/ProjectBoard_Complete.JPG)](https://github.com/beancacamille/CocktailAPI/blob/dev/Images/ProjectBoard_Complete.JPG)
