@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The aim of this project is to deliver a test framework for the TheCocktailDB service. By working in pairs, we hope to to incorporate good collaboration using GitHub, follow the scrum model by holding regular stand-ups and reviews and work closely together to carry out tests for the service.
+The aim of this project is to deliver a test framework for the TheCocktailDB API. By working in pairs, we hope to to incorporate good collaboration using GitHub, follow the scrum model by holding regular stand-ups and reviews and work closely together to carry out tests for the service.
 
 ## Class Diagram
 
@@ -74,3 +74,44 @@ In the future, we could spend more time focusing on the user stories as this nee
 
 ![ProjectBoard_Complete.JPG](https://github.com/beancacamille/CocktailAPI/raw/dev/Images/ProjectBoard_Complete.JPG)
 
+# How to Use CocktailDB API Framework
+For this project, we used the services:
+- Search cockail by name
+- Search ingredient by name
+### Search cocktail by name service
+#### Initialisation
+```csharp
+var searchByCocktailService = new SCService("cocktail name");
+```
+The constructor has a string parameter that will be used when calling the API.
+#### Service methods
+```csharp
+public Drink[] GetResult()
+```
+This method returns an array of Drink objects that correspond to the string value passed in when initialising the service. If there are no results, the array will be `null`.
+```csharp
+public bool CheckAllCocktailsContainSearchInput()
+```
+This method returns a boolean value on whether all of the results contain the string value passed in when initialising the service.
+```csharp
+public List<string> GetIngredients()
+```
+This method returns a list of string of ingredients of the first result.
+### Search ingredient by name service
+#### Initialisation
+```csharp
+var searchByIngredientService = new SIService();
+```
+#### Service methods
+```csharp
+public int CountAllIngredients()
+```
+This method returns an integer value of the total amount of reults returned when calling the API.
+```csharp
+public int CountIngredientSearched(string liquid)
+```
+This method takes in a string value that will be used to filter the results and return an integer value of the amount of filtered results.
+```csharp
+public string GetIngredientSearched(string liquid)
+```
+This method takes in a string value that will be used to filter the results and return a string value of the first result. If there are no results, it will return `""`.
